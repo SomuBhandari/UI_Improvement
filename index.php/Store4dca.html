@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Mirrored from www.rebatelo.com/index.php/Store?id=72&name=Baraka%20Veg%20Fast%20Food by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 08 Dec 2018 17:27:59 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>rebatelo</title>
+        <link rel="icon" href="../assets/images/fav.png" type="image/png" sizes="20x25"/>
+        <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../assets/css/style.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../assets/css/style_common.css" />
+        <link rel="stylesheet" type="text/css" href="../assets/css/style5.css" />
+        <link rel="stylesheet" type="text/css" href="../assets/css/hover.css" />
+        <link rel="stylesheet" type="text/css" href="../assets/css/component.css" />
+    </head>
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/script.js" charset="utf-8"></script>
+    <script src="../assets/js/modernizr.custom.js"></script>
+    <script src="../assets/js/toucheffects.js"></script>
+    
+    <script src="../assets/js/jquery.bxslider.js"></script>
+	<link href="../assets/css/jquery.bxslider.css" rel="stylesheet">
+    
+    <script>
+        $(document).ready(function () {
+            $("#clients-slider").carousel({
+                interval: 5000 //TIME IN MILLI SECONDS
+            });
+        });
+        
+    </script>
+    <!--category-->
+   
+   <script>
+     $(document).ready(function(){
+    $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+});  
+       
+   </script>
+    <script>
+    $(document).ready(function (res) {
+        var menu = "streetfood_menu";
+        $(".sitemenu").removeClass("active");
+        $("#" + menu).addClass("active");
+
+    })
+</script>
+<body>
+    <div class="container-fluid">
+        <!-- Topper w/ logo -->
+        <div class="row hidden-xs topper">
+            <div class="col-xs-7 col-sm-7">
+                <a href="http://www.rebatelo.com/index.php"><img am-TopLogo alt="rebatelo"  src="../assets/images/logo.png" class="img-responsive"></a>
+            </div>
+            
+            <div class="col-xs-5 col-xs-offset-1 col-sm-5 col-sm-offset-0 text-right ">
+                <p class="CallNow"></span><a type="button" class="btn btn-danger" style="cursor:pointer;" href="Home/becomeApartner.html">Become A Partner&nbsp;<span class="glyphicon glyphicon-user"></a></p>
+            </div>
+        </div> <!-- End Topper -->
+        <!-- Navigation -->
+        <div class="row">
+            <nav class="navbar navbar-inverse" role="navigation navbartop">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand visible-xs-inline-block nav-logo" href="http://www.rebatelo.com/"><img src="../assets/images/logo.png" class="img-responsive" alt=""></a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-ex1-collapse">
+                        <ul class="nav navbar-nav js-nav-add-active-class">
+                            <li id="home_menu" class="sitemenu"><a href="http://www.rebatelo.com/index.php">Home</a></li>
+                            <!--<li ><a href="">Event</a></li>-->
+                            <li id="restaurant_menu" class="sitemenu"><a href="Store/restaurant.html">Restaurant</a></li>
+                            <li id="saloonspa_menu" class="sitemenu"><a href="Store/salonspa.html">Salon & spa</a></li>
+                            <li id="streetfood_menu" class="sitemenu"><a href="Store/streetfood.html">Street Food</a></li>
+                            <li id="other_menu" class="sitemenu"><a href="Store/others.html">Others</a></li>
+                            <li id="partner_menu" class="sitemenu"><a href="Home/becomeApartner.html">Become A Partner</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right hidden-xs">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bhubaneswar<b class="caret"></b></a>
+                                <ul class="dropdown-menu" role="menu">
+                                                                                                                <li><a onclick="change_location('Bhubaneswar');" style="cursor:pointer;">Bhubaneswar</a></li>
+                                                                            <li><a onclick="change_location('cuttack');" style="cursor:pointer;">cuttack</a></li>
+                                                                    </ul>
+                            </li>
+                            <form action="http://www.rebatelo.com/index.php/Home/change_location" method="post" id="loc_form">
+                                <input type="hidden" value="" name="location" id="location">
+                            </form>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </nav>
+        </div>
+    </div>
+    <script>
+        function change_location(location) {
+            $('#location').val(location);
+            $('#loc_form').submit();
+        }
+    </script><script>
+	$(document).ready(function(){
+		$('.bxslider').bxSlider({
+			mode: 'horizontal',
+			moveSlides: 1,
+			slideMargin: 40,
+			infiniteLoop: true,
+			slideWidth: 1900,
+			minSlides: 1,
+			maxSlides: 1,
+			speed: 800,
+		});
+	});
+</script>
+<style>
+ @media (max-width: 768px) {
+   .home-slider{
+    height:200px;
+}    
+    
+}  
+</style>
+<div style="background-color:#000; height:10px;clear:both; margin-top:-28px;""></div>
+<section id="brands">
+    <div class="container-fluid">
+        <div class="row">
+            <h2><span class="span">Baraka Veg Fast Food</span></h2>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <img src="../assets/images/offer_view.png" alt="img04" style=" width: 100%; display: block;">
+                    <div class="card-body">
+                        <h3 class="card-text">N/A</h3>
+                        <div class="d-flex justify-content-between align-items-center">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <img src="../assets/images/visit.png" alt="img04" style=" width: 100%; display: block;">
+
+                    <div class="card-body">
+                        <h3 class="card-text">N/A</h3>
+                        <div class="d-flex justify-content-between align-items-center">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <img src="../assets/images/enjoy.png" alt="img04" style=" width: 100%; display: block;">
+                    <div class="card-body">
+                        <h3 class="card-text">N/A</h3>
+                        <div class="d-flex justify-content-between align-items-center">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+</section>
+<center>
+    <div class="row" style="background-color:#fff;">
+        <div class="col-md-2">&nbsp;</div>
+        <div class="col-md-2" style="text-align:right;">
+            <img src="../assets/images/side1.png">
+        </div>
+        <div class="col-md-4">
+            <a type="button" data-toggle="modal" data-target="#exampleModalCenter"><img src="../assets/images/iconmenu.gif"></a>
+        </div>
+        <div class="col-md-2" style="text-align:left;">
+            <img src="../assets/images/side2.png">
+        </div>
+        <div class="col-md-2">&nbsp;</div>
+    </div>
+
+</center>
+<section id="brands">
+    <div class="row">
+        <h2>Store <span class="span"><b>Address</b></span></h2>
+    </div>
+    <div class="container-fluid">
+        <div class="row" style="padding-left: 10px !important;">
+            <div class = "col-md-4 well" style = "height: 300px;">
+                <h4><b>Address :</b></h4>
+                <span><i class = "fas fa-map-marker-alt"></i>Beside DurgaPuja mandap Saheed Nagar, Bhubaneswar, Odisha 751007</span>
+                <h4><b>Mobile :</b> <i class="fas fa-mobile-alt"></i>+(91) N/A</span></h4>
+                                    <h4><b>Website :</b><i class="fas fa-mobile-alt"></i>N/A</h4>
+                                            </div>
+            <div class="col-md-8">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29932.1986829185!2d85.81676047789693!3d20.319925973747278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a190984e7e3c3ad%3A0xc531e2cd9c2ceab3!2sBaraka+Fast+Food!5e0!3m2!1sen!2sin!4v1539020279520" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>            </div>
+        </div>
+    </div>
+</section>
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content" >
+            <div class="modal-body">
+                                                    <br/><br/>
+                    <h3>Menu not has been uploaded yet by Shop.</h3>
+                    <br/><br/>
+                            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <!--<a href="admin/assets/images/store/menu/" alt="" type="button" class="btn btn-danger" download>Download</a>-->
+            </div>
+        </div>
+    </div>
+</div><script src="../../cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<style>
+    /* Slider */
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+    
+</style>
+<!--category-->
+<!--category-->
+<footer id="footer">
+    <div class="container-fluid">
+
+        <div class="row" id="brands" style="text-align:center;">
+            <h2>Foo<span class="span">ter</span></h2>
+        </div>
+        <!----------- Footer ------------>
+        <footer class="footer-bs">
+            <div class="row">
+                <div class="col-md-3 footer-brand animated fadeInLeft">
+                    <img src="../assets/images/logo.png">
+                    <p>Rebatelo is exclusive plateform to promotaions, offers, events and many more. you can get updated about the offers, discounts and upcoming event in your city.</p>
+                    <p>© 2018 rebatelo, All rights reserved</p>
+                </div>
+                <div class="col-md-4 footer-nav animated fadeInUp">
+                    <h4 class="span">Menu —</h4>
+
+                    <div class="col-md-6">
+                        <ul class="list">
+                            <li><a href="http://www.rebatelo.com/index.php">Home</a></li>
+                            <li><a href="Store/restaurant.html">Restaurant</a></li
+                            <li><a href="Store/salonspa.html">Salon & Spa</a></li>
+                            <li><a href="Store/streetfood.html">Street Food</a></li>
+                            <li><a href="Home/becomeApartner.html">Become A Partner</a></li>
+                            <li><a href="http://www.rebatelo.com/admin">Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-2 footer-social animated fadeInDown">
+                    <h4 class="span">Follow Us</h4>
+                    <ul>
+                        <li><a href="https://www.facebook.com/rebatelo/" target="_blank">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Youtube</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-ns animated fadeInRight">
+                    <h4 class="span">Newsletter</h4>
+                    <p>Subscribe Rebatelo to get updated with us.</p>
+                    <p>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search for...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-envelope"></span></button>
+                        </span>
+                    </div><!-- /input-group -->
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <section style="text-align:center; margin:10px auto;"><p>All Right & Reserved by <a href="http://www.rebatelo.com/index.php">Rebatelo</a></p></section>
+
+    </div>
+</footer>
+<script>
+    function catSubmit(id) {
+        document.getElementById("catForm" + id).submit();
+    }
+</script>
+</body>
+
+<!-- Mirrored from www.rebatelo.com/index.php/Store?id=72&name=Baraka%20Veg%20Fast%20Food by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 08 Dec 2018 17:27:59 GMT -->
+</html>
